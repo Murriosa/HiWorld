@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+main()
+	{int x, y, z;
+	cout << "Уравнение: 2x + 5x2" << endl << "Введите значение X:" << endl;
+	cin >> x;
+	y=(2*x)+5*(x*x);
+	z=5*x+2/3+x;
+	cout << "Решение: Если Х=" << x << " ,то " << endl << "2 * " << x << " + 5 * " << x << "2" << endl << "y=" << y << endl;
+	cout << "Уравнение: 5x + 2 / 3 + x" << endl;
+	cout << "Решение: Если Х=" << x << " ,то " << endl << "5 * " << x << " + 2 / 3 + " << x << endl << "z=" << z << endl;
+	cin.get();
+	}
