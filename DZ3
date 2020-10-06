@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+main(){
+	float age, num1;
+	cout << "Ââåäèòå âàø âîçðàñò: " << endl; 
+	cin >> age;
+	if (age > 4 ) {
+		cout << "Âàø âîçðàñò: " << age << " ëåò";
+				  } else {
+				 		if (age == 1) {
+						cout << "Âàø âîçâðàñò: " << age << " ãîä";
+															  } else {
+															 cout << "Âàø âîçâðàñò: " << age << " ãîäà";
+															   }
+						 }
+	cin.get();
+	cin.get();
